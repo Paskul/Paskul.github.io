@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:wght@500&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background-color: #FCF5E5;
+}
+
+li, a, button, p {
+  font-family: "Public Sans", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  color:#353935;
+  text-decoration: none;
+}
+
+header {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 30px 10%;
+}
+
+header h1 {
+  font-family: "Public Sans", sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  color: #353935;
+  margin-left: 20px;
+}
+
+.logo {
+  cursor: pointer;
+  margin-right: 20px;
+}
+
+h1 {
+  margin-right: auto;
+}
+
+.nav__links {
+  list-style: none;
+}
+
+.nav__links li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.nav__links li a {
+  transition: all 0.3s ease 0s;
+}
+
+.nav__links li a:hover {
+  color: #8ab660;
+}
+
+button {
+  margin-left: 20px;
+  padding: 9px 25px;
+  background-color: rgba(138, 182, 96, 0.8);
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+}
+
+button:hover {
+  background-color: rgba(138, 182, 96, 0.6);
+}
+
+.photo-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+  
+.photo {
+    overflow: hidden;
+    position: relative;
+}
+  
+.photo img {
+    width: 100%;
+    height: auto;
+    display: block;
+    transition: transform .3s ease;
+}
+
+.photo:hover img {
+    transform: scale(1.1);
+}
+
+.photo-title {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px;
+    background-color: #FCF5E5;  /* Adjust as needed */
+    text-align: center;
+}
+
+.photo-title h3 {
+    margin: 0;
+    font-family: "Public Sans", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #353935;
+}

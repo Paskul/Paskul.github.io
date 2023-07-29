@@ -4,12 +4,12 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>pascals input</title>
-        <link rel="stylesheet" href="/css/input.css">
+        <title>pascals spotify</title>
+        <link rel="stylesheet" href="/css/main.css">
     </head>
     <body>
         <header>
-            <img class="logo" alt='me' src="/assets/sunglasses.png" onmouseover="this.src='/assets/sunglasseshmmmm.png';" onmouseout="this.src='/assets/sunglasses.png';" />
+            <img class="logo" src="/assets/sunglasses.png" alt="me">
             <h1>pascals website</h1>
             <nav>
                 <ul class="nav__links">
@@ -24,19 +24,8 @@
             <a class="cta" href="#"><button onclick="location.href='mailto:pascalsikorskips@gmail.com'">contact</button></a>
         </header>
 
-
-        <form id="form" onsubmit="submitForm(event)">
-            <input id="input" type="text" placeholder="enter something cool">
-            <button id="submit" type="submit">submit</button>
-        </form>
-        <script>
-            function submitForm(event) {
-                event.preventDefault();
-                let url = document.getElementById('input').value;
-                url = url.replace(/\s+/g, ''); // remove all spaces
-                const newUrl = url.endsWith('.html') ? url : url + '.html';
-                window.location.href = newUrl;
-            }
-        </script>
+        <div class="spotifyTest">
+            <iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/3b8pe9xvqYpwWqKOxYrKEp?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+        </div>
     </body>
 </html>
