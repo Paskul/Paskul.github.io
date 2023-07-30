@@ -33,7 +33,7 @@
             function submitForm(event) {
                 event.preventDefault();
                 let url = document.getElementById('input').value;
-                url = url.replace(/\s+/g, ''); // remove all spaces
+                url = url.replace(/\s+/g, '').toLowerCase(); // remove all spaces
                 const newUrl = url.endsWith('.html') ? url : url + '.html';
                 window.location.href = newUrl;
             }
