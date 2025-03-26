@@ -1,0 +1,337 @@
+<!DOCTYPE HTML>
+<html lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+    <title>Pascal Sikorski</title>
+
+    <meta name="author" content="Pascal Sikorski">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="images/favicon/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" type="text/css" href="stylesheet.css">
+    
+  </head>
+
+  <body>
+    <table style="width:100%;max-width:800px;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+      <tr style="padding:0px">
+        <td style="padding:0px">
+          <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+            <tr style="padding:0px">
+              <td style="padding:2.5%;width:63%;vertical-align:middle">
+                <p class="name" style="text-align: center;">
+                  Pascal Sikorski
+                </p>
+                <p>I'm a Computer Science and Mathematics undergraduate student at Saint Louis University, working under Prof. <a href="https://madibabaiasl.github.io/">Madi Babaiasl</a> at the Mecharithm Lab.
+                </p>
+                <p>
+                  I've been fortunate to work with many great researchers in my undergraduate experience. This summer, I'll work with Prof. <a href="https://engineering.oregonstate.edu/people/joseph-davidson">Joseph Davidson</a> at the Oregon State University <a href="https://research.engr.oregonstate.edu/davidsonjr/">Intelligent Machines and Materials Lab</a> on robotic crop manipulation. Previously, I've worked with Prof. <a href="http://ames.caltech.edu/">Aaron Ames</a> and Dr. <a href="https://xiaotan-git.github.io/">Xiao Tan</a> at the Caltech <a href="http://www.bipedalrobotics.com/">AMBER Lab</a> on risk-aware control with autonomous robotic navigation.
+                </p>
+                <p>
+                  Feel free to reach out if you are interested in my work or wish to start a chat!
+                </p>
+                <p style="text-align:center">
+                  <a href="mailto:pascal.sikorski@slu.edu">Email</a> &nbsp;/&nbsp;
+                  <a href="data/pascalsikorskiCV.pdf">CV</a> &nbsp;/&nbsp;
+                  <a href="https://scholar.google.com/citations?user=i2NlVA4AAAAJ&hl=en">Scholar</a> &nbsp;/&nbsp;
+                  <a href="https://www.linkedin.com/in/pascalsikorski/">LinkedIn</a> &nbsp;/&nbsp;
+                  <a href="https://github.com/Paskul/">GitHub</a>
+                </p>
+              </td>
+              <td style="padding:2.5%;width:37%;max-width:37%">
+                <a href="images/pascal.jpg"><img style="width:100%;max-width:100%;object-fit: cover;" alt="profile photo" src="images/pascal.jpg" class="hoverZoomLink"></a>
+              </td>
+            </tr>
+          </tbody></table>
+          <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+              <tr>
+              <td style="padding:16px;width:100%;vertical-align:middle">
+                <h2>Research</h2>
+                <p>
+                  I'm interested in <strong>robotic planning</strong>, <strong>human-robot interaction</strong>, <strong>game theory</strong>, and <strong>deep learning</strong> for assistive or environmental applications. Most of my research utilizes aspects of SLAM and human-centric design to solve challenges in planning/control.
+                </p>
+              </td>
+            </tr>
+          </tbody></table>
+        <table style="width:100%;border:0px;border-spacing:0px 10px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+
+    <!-- Deployment of Large Language Models to Control Mobile Robots at the Edge -->
+    <tr onmouseout="roboticmobileicmcr_stop()" onmouseover="roboticmobileicmcr_start()">
+      <td style="padding:16px;width:20%;vertical-align:middle">
+        <div class="one">
+          <div class="two" id='robotmobilestill'><video  width=100% muted autoplay loop>
+          <source src="images/mobileroboticmcr.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+          </video></div>
+          <img src='images/mobilerobot.jpg' width=100%>
+        </div>
+        <script type="text/javascript">
+          function roboticmobileicmcr_start() {
+            document.getElementById('robotmobilestill').style.opacity = "1";
+          }
+
+          function roboticmobileicmcr_stop() {
+            document.getElementById('robotmobilestill').style.opacity = "0";
+          }
+          roboticmobileicmcr_stop()
+        </script>
+      </td>
+      <td style="padding:8px;width:80%;vertical-align:middle">
+        <a href="https://arxiv.org/pdf/2405.17670">
+          <span class="papertitle">Deployment of Large Language Models to Control Mobile Robots at the Edge</span>
+        </a>
+        <br>
+        <strong>Pascal Sikorski</strong>,
+        <a href="https://leendertschrader.wordpress.com/">Leendert Schrader</a>,
+        <a href="https://www.linkedin.com/in/kalebyu/">Kaleb Yu</a>,
+        <a href="https://www.linkedin.com/in/lucy-billadeau-9a9533220/">Lucy Billadeau</a>,
+        <a href="https://www.linkedin.com/in/jinka-meenakshi-a4b1361a1/">Jinka Meenakshi</a>,
+        <a href="https://www.instagram.com/nmuth_8/">Naveena Mutharasan</a>,
+        <a href="https://cs.slu.edu/~esposito/">Flavio Esposito</a>,
+        <a href="https://www.hadiakbarpour.com/">Hadi Akbarpour</a>,
+        <a href="https://madibabaiasl.github.io/">Madi Babaiasl</a>
+        <br>
+        <em>ICMCR</em>, 2025
+        <br>
+        <a href="https://arxiv.org/abs/2405.17670">arXiv</a> /
+        <a href="https://github.com/madibabaiasl/MobileRobotGPT4LLaMA2024">code</a> /
+        <a href="data/SikorskiICMCRmobile2024.bib">bibtex</a>
+        <p></p>
+        <p>
+        An online/offline control system for mobile robots using natural language commands with large language models.
+        </p>
+      </td>
+    </tr>
+
+    <!-- Improving Robotic Arms through Natural Language Processing, Computer Vision, and Edge Computing -->
+    <tr onmouseout="roboticarmicmcr_stop()" onmouseover="roboticarmicmcr_start()">
+      <td style="padding:16px;width:20%;vertical-align:middle">
+        <div class="one">
+          <div class="two" id='robotarmstill'><video  width=100% muted autoplay loop>
+          <source src="images/roboticarm.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+          </video></div>
+          <img src='images/robotarmstill.PNG' width=100%>
+        </div>
+        <script type="text/javascript">
+          function roboticarmicmcr_start() {
+            document.getElementById('robotarmstill').style.opacity = "1";
+          }
+
+          function roboticarmicmcr_stop() {
+            document.getElementById('robotarmstill').style.opacity = "0";
+          }
+          roboticarmicmcr_stop()
+        </script>
+      </td>
+      <td style="padding:8px;width:80%;vertical-align:middle">
+        <a href="https://arxiv.org/pdf/2405.17665">
+          <span class="papertitle">Improving Robotic Arms through Natural Language Processing, Computer Vision, and Edge Computing</span>
+        </a>
+        <br>
+        <strong>Pascal Sikorski</strong>, 
+        <a href="https://www.linkedin.com/in/kalebyu/">Kaleb Yu</a>,
+        <a href="https://www.linkedin.com/in/lucy-billadeau-9a9533220/">Lucy Billadeau</a>,
+        <a href="https://cs.slu.edu/~esposito/">Flavio Esposito</a>,
+        <a href="https://www.hadiakbarpour.com/">Hadi Akbarpour</a>,
+        <a href="https://madibabaiasl.github.io/">Madi Babaiasl</a>
+        <br>
+        <em>ICMCR</em>, 2025
+        <br>
+        <a href="https://arxiv.org/abs/2405.17665">arXiv</a> /
+        <a href="https://github.com/madibabaiasl/EnhancedArmEdgeNLP2024">code</a> /
+        <a href="data/SikorskiICMCRarm2024.bib">bibtex</a>
+        <p></p>
+        <p>
+				Combines natural language processing, computer vision, and edge computing for a robotic arm to interpret and execute spoken commands.
+        </p>
+      </td>
+    </tr>
+
+    <!-- EMG-TransNN-MHA: A Transformer-Based Model for Enhanced Motor Intent Recognition in Assistive Robotics -->
+    <tr>
+      <td style="padding:16px;width:20%;vertical-align:middle">
+        <img src="images/bigdatahands.PNG" alt="b3do" width="160" style="border-style: none">
+      </td>
+      <td style="padding:8px;width:80%;vertical-align:middle">
+        <a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10825417">
+          <span class="papertitle">EMG-TransNN-MHA: A Transformer-Based Model for Enhanced Motor Intent Recognition in Assistive Robotics</span>
+        </a>
+        <br>
+        <a href="https://www.linkedin.com/in/joel-aikkarakudiyil-joby-040742282/">Joel Aikkarakudiyil Joby</a>,
+        <strong>Pascal Sikorski</strong>,
+        <a href="https://www.linkedin.com/in/tipu-sultan1/">Tipu Sultan</a>,
+        <a href="https://www.hadiakbarpour.com/">Hadi Akbarpour</a>,
+        <a href="https://cs.slu.edu/~esposito/">Flavio Esposito</a>,
+        <a href="https://madibabaiasl.github.io/">Madi Babaiasl</a>
+        <br>
+        <em>IEEE International Conference on Big Data</em>, 2024
+        <br>
+        <a href="https://ieeexplore.ieee.org/abstract/document/10825417">IEEE</a> /
+        <a href="data/JobyIEEEBigData2024.bib">bibtex</a>
+        <p>A transformer model to utilize muscle EMG signals for upper-limb gesture classification.</p>
+      </td>
+    </tr>
+
+    <!-- Control Barrier Functions Through SLAM: A Probabilistic Approach -->
+    <tr onmouseout="bcbf_stop()" onmouseover="bcbf_start()">
+      <td style="padding:16px;width:20%;vertical-align:middle">
+        <div class="one">
+          <div class="two" id='bcbf_image'>
+					  <img src='images/bcbfafter.png' width=100%>
+					</div>
+          <img src='images/bcbfbefore.png' width=100%>
+        </div>
+        <script type="text/javascript">
+          function bcbf_start() {
+            document.getElementById('bcbf_image').style.opacity = "1";
+          }
+
+          function bcbf_stop() {
+            document.getElementById('bcbf_image').style.opacity = "0";
+          }
+          bcbf_stop()
+        </script>
+      </td>
+      <td style="padding:8px;width:80%;vertical-align:middle">
+        <a href="https://sluedu-my.sharepoint.com/:p:/g/personal/pascal_sikorski_slu_edu/EbYPPqX8e0tPmOXrZHdSExgB89QC584vxdxej9kCCuAPlg?e=wTtx7a">
+			<span class="papertitle">Control Barrier Functions Through SLAM: A Probabilistic Approach
+      </span>
+        </a>
+        <br>
+        <strong>Pascal Sikorski</strong>,
+				<a href="https://xiaotan-git.github.io/">Xiao Tan</a>, 
+				<a href="http://ames.caltech.edu/">Aaron Ames</a>
+				<br>
+        <em>LANS</em>, 2024
+        <br>
+        <a href="https://sluedu-my.sharepoint.com/:p:/g/personal/pascal_sikorski_slu_edu/EbYPPqX8e0tPmOXrZHdSExgB89QC584vxdxej9kCCuAPlg?e=wTtx7a">powerpoint</a>
+        <p></p>
+        <p>
+				Incorporates a Belief Control Barrier Function for SLAM systems. 
+        </p>
+      </td>
+    </tr>
+
+    <!-- Adversary is on the Road: Attacks on Visual SLAM using Unnoticeable Adversarial Patch -->
+    <tr onmouseout="advslam_stop()" onmouseover="advslam_start()">
+      <td style="padding:16px;width:20%;vertical-align:middle">
+        <div class="one">
+          <div class="two" id='ever_image'>
+					  <img src='images/afterattack.PNG' width=100%>
+					</div>
+          <img src='images/beforeattack.PNG' width=100%>
+        </div>
+        <script type="text/javascript">
+          function advslam_start() {
+            document.getElementById('ever_image').style.opacity = "1";
+          }
+
+          function advslam_stop() {
+            document.getElementById('ever_image').style.opacity = "0";
+          }
+          advslam_stop()
+        </script>
+      </td>
+      <td style="padding:8px;width:80%;vertical-align:middle">
+        <a href="https://www.usenix.org/system/files/usenixsecurity24-chen-baodong.pdf">
+			<span class="papertitle">Adversary is on the Road: Attacks on Visual SLAM using Unnoticeable Adversarial Patch
+      </span>
+        </a>
+        <br>
+				<a href="https://engineering.osu.edu/people/chen.12610">Baodong Chen</a>, 
+				<a href="https://www.wei-wang-research.com/">Wei Wang</a>,
+        <strong>Pascal Sikorski</strong>,
+				<a href="https://u.osu.edu/zhu1/">Ting Zhu</a>
+				<br>
+        <em>USENIX Security</em>, 2024
+        <br>
+        <a href="https://www.usenix.org/conference/usenixsecurity24/presentation/chen-baodong">usenix</a> /
+        <a href="data/advslam.bib">bibtex</a>
+        <p></p>
+        <p>
+				Presents an Adversary is on the Road (AoR) attack for many visual SLAM systems. 
+        </p>
+      </td>
+    </tr>
+
+    <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20"><tbody>
+      <tr>
+        <td>
+          <h2>Miscellaneous</h2>
+        </td>
+      </tr>
+    </tbody></table>
+    <table width="100%" align="center" border="0" cellpadding="20"><tbody>
+
+    <!--
+    <tr>
+      <td style="padding:20px;width:34%;vertical-align:middle"></td>
+      <td width="73%" valign="center">
+        Reviewer, IROS 2022, 2023
+        <br>
+        Reviewer, ICRA 2023, 2024
+        <br>
+        Reviewer, MetaLearn Workshop NeurIPS 2020
+        <br>
+        Graduate Student Mentor, <a href="http://prism.cs.toronto.edu/">PRISM Workshop 2022</a>
+        <br>
+      </td>
+    </tr>
+    -->
+
+    <tr>
+      <td style="padding:20px;width:34%;vertical-align:middle">
+        <img src="images/photo_2024-04-07_20-34-53.jpg" alt="pascalagain" width="240">
+      </td>
+      <td width="73%" valign="center">
+        Teaching Assistant at Saint Louis University,
+        <br>
+        <a href="https://cs.slu.edu/~goldwamh/courses/slu/csci2100/2015_Fall/handouts/course-info.pdf">CSCI 2100</a> Spring 2024, 
+        <br>
+        <a href="https://cs.slu.edu/~ferry/courses/csci1060/">CSCI 1060</a> Fall 2023
+      </td>
+    </tr>
+
+    <tr onmouseover="pascaleSportsStart()" onmouseout="pascaleSportsStop()">
+      <td style="padding:20px;width:34%;vertical-align:middle">
+        <div class="one">
+          <div class="two" id="pascaleSportsVideo" style="opacity: 0;">
+            <video width="240" muted autoplay loop>
+              <source src="images/pascalesports.mp4" type="video/mp4">
+              Your browser does not support the video tag.
+            </video>
+          </div>
+          <img src="images/mapoverwatch.png" alt="overwatch" width="240">
+        </div>
+      </td>
+      <td width="73%" valign="center">
+        I used to play professional <em>Overwatch</em> esports,
+        <br>
+        See my <a href="https://liquipedia.net/overwatch/Paskul">wiki-page</a>.
+      </td>
+    </tr>
+    <script type="text/javascript">
+      function pascaleSportsStart() {
+        document.getElementById('pascaleSportsVideo').style.opacity = "1";
+      }
+    
+      function pascaleSportsStop() {
+        document.getElementById('pascaleSportsVideo').style.opacity = "0";
+      }
+      pascaleSportsStop();
+    </script>
+
+    </tbody></table>
+    <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+      <tr>
+        <td style="padding:0px">
+          <br>
+          <p style="text-align:right;font-size:small;">
+            This page template comes from <a href="https://jonbarron.info/">Jon Barron</a>. Here is the <a href="https://github.com/jonbarron/jonbarron_website">source code</a> he's provided.
+          </p>
+        </td>
+      </tr>
+    </tbody></table>
+  </body>
+</html>
